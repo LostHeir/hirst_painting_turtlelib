@@ -27,8 +27,6 @@ def random_color():
     return rgb_tuple
 
 
-
-
 def set_ini_pos():
     """Set turtle in the left-down corner"""
     myTurtle.penup()
