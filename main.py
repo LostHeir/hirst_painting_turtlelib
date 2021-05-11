@@ -35,7 +35,7 @@ def set_ini_pos():
 
 
 def painting():
-    """Paints dots depending on how big is teh screen 'SCREEN_HEIGHT, SCREEN_WIDTH' is and how what 'DOT_SIZE' is. """
+    """Paints dots depending on how big is the screen 'SCREEN_HEIGHT, SCREEN_WIDTH' is and what 'DOT_SIZE' is. """
     for __ in range(0, SCREEN_HEIGHT // (DOT_SIZE * 2)):
         for _ in range(1, SCREEN_WIDTH // (DOT_SIZE * 2)):
             myTurtle.dot(DOT_SIZE, random_color())
